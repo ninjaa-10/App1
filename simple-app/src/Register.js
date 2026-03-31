@@ -17,11 +17,11 @@ function Register(){
         <div>
            <h2>Register</h2> 
            <input
-                placeholder="Username"
+                placeholder="Username" value={username}
                 onChange={(e)=>setUsername(e.target.value)}
             /><br></br>
             <input
-                placeholder="Password"
+                placeholder="Password" value={password}
                 onChange={(e)=>setPassword(e.target.value)}
             /><br></br>
             <button onClick={registerUser}>Register</button>
